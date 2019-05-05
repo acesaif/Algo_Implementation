@@ -1,4 +1,4 @@
-# Minimum Spanning Tree
+# Minimum Cost Spanning Tree
 Algorithmic implementation to find Minimum Spanning Tree
 
 __Spanning tree__ `H` is an acyclic graph whose length of `V(H) = V(G)` and `E(H)` is subset of `E(G)`, where `G` is any given graph.
