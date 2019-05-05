@@ -34,7 +34,6 @@ def define_random_tree(num_nodes, num_edges):
         G, node_shape='s', node_color='orange', with_labels=1)
     return plt.show()
 
-
 define_random_tree(10, 10)
 
 
