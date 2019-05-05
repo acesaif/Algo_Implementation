@@ -83,7 +83,7 @@ class SpanningTree(object):
         plt.title("A Spanning Tree of {}".format(self.num_nodes))
         return plt.show()
 
-
-graph = SpanningTree(8, 8)
-graph.fetchCompleteGraph()
-graph.fetchSpanningTree()
+if __name__ == "__main__":
+    graph = SpanningTree(8, 8)
+    graph.fetchCompleteGraph()
+    graph.fetchSpanningTree()
