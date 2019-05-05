@@ -7,7 +7,7 @@ __Complete graph__ `G` is simple graph in which any two vertices are joined by a
 
 __Spanning tree__ `H` is an acyclic graph whose length of `V(H) = V(G)` and `E(H)` is subset of `E(G)`, where `G` is any given graph. A spanning tree of above graph looks like this,
 
-![spanning](https://user-images.githubusercontent.com/26320981/57195202-9dbc6a00-6f6d-11e9-900c-80facef9a6dd.png)
+![spanning](https://user-images.githubusercontent.com/26320981/57195262-16232b00-6f6e-11e9-835c-ac98268b3bb4.png)
 
 Now if we assign weights (certain integer) to edges of graph `G` then `G` becomes a weighted graph. This opens to certain problems or ideas to find __`minimum cost spanning tree`__ of graph `G`.
 
