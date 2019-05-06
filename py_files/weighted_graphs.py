@@ -28,7 +28,10 @@ def randomly_weighted_graph(num_nodes):
         p += 1
     
     for i in eff_edgelist:
-        i.append(random.randint(5, 50))
+        if i[0] == i[1]:
+            i.append(0)
+        else:
+            i.append(random.randint(5, 50))
     eff_edgelist = [tuple(i) for i in eff_edgelist]
     
     G = nx.Graph()
