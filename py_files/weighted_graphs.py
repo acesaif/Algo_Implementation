@@ -23,7 +23,7 @@ def randomly_weighted_graph(num_nodes):
     p = 0
     eff_edgelist = []
     while p < len(edgelist):
-        if edgelist[p][0] < edgelist[p][1]:
+        if edgelist[p][0] <= edgelist[p][1]:
             eff_edgelist.append(edgelist[p])
         p += 1
     
