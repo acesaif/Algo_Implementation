@@ -26,20 +26,20 @@ def randomly_weighted_graph(num_nodes):
         if edgelist[p][0] <= edgelist[p][1]:
             eff_edgelist.append(edgelist[p])
         p += 1
-    
+
     for i in eff_edgelist:
         if i[0] == i[1]:
             i.append(0)
         else:
             i.append(random.randint(5, 50))
     eff_edgelist = [tuple(i) for i in eff_edgelist]
-    
+
     G = nx.Graph()
     G.add_nodes_from(nodelist)
     G.add_weighted_edges_from(eff_edgelist)
     nx.draw_circular(
         G, node_shape='s', node_color='orange', with_labels=1)
-    
+
     for i in list(G.edges(data=True)):
         print([i])
     return plt.show()
