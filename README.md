@@ -15,3 +15,7 @@ To find minimum cost spanning tree, we implement different algorithms such as,
 
 * __`Kruskal's Algorithm`__
 * __`Prim's Algorithm`__
+
+Before that, we need to attain familiarity with `weighted graphs`.
+
+__Weighted graph__ is a graph in which a real number is assigned to every edge of it. The real number is called the `weight` of the edge and is denoted by `w(e)`.
