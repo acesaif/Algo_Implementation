@@ -21,7 +21,7 @@ def define_random_tree(num_nodes, num_edges):
     num_edges : no. of edges in a graph
         Edges are also called as links. 
         It takes integer values and set of edges 
-        is denoted as E(G) and e = v_iv_j."""
+        is denoted as E(G)."""
 
     plt.figure(figsize=(6, 5))
 
@@ -41,7 +41,7 @@ define_random_tree(10, 10)
 
 
 class SpanningTree(object):
-    """Spanning tree of complete graph"""
+    """Spanning tree of complete graph."""
 
     def __init__(self, num_nodes, num_edges):
         self.num_nodes = num_nodes
