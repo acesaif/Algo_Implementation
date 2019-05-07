@@ -15,11 +15,13 @@ def define_random_tree(num_nodes, num_edges):
     Parameters
     ----------
     num_nodes : no. of nodes in a graph
-        With this user specifies number of nodes
-        in a graph.
+        Nodes are also called as vertices. 
+        It takes integer values and set of vertices 
+        is denoted as V(G).
     num_edges : no. of edges in a graph
-        With this user specifies number of edges
-        in a graph."""
+        Edges are also called as links. 
+        It takes integer values and set of edges 
+        is denoted as E(G) and e = v_iv_j."""
 
     plt.figure(figsize=(6, 5))
 

@@ -10,7 +10,14 @@ import networkx as nx
 
 def randomly_weighted_graph(num_nodes):
     """This method adds random weights to 
-    each edge of the graph."""
+    each edge of the graph.
+
+    Parameters
+    ----------
+    num_nodes : no. of nodes in a graph
+        Nodes are also called as vertices. 
+        It takes integer values and set of vertices 
+        is denoted as V(G)."""
 
     plt.figure(figsize=(6, 5))
 
