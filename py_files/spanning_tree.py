@@ -32,7 +32,8 @@ def define_random_tree(num_nodes, num_edges):
     G.add_edges_from(edgelist)
     nx.draw_circular(
         G, node_shape='s', node_color='orange', with_labels=1)
-    return plt.show()
+    plt.show()
+    return None
 
 define_random_tree(10, 10)
 
@@ -62,7 +63,8 @@ class SpanningTree(object):
         nx.draw_circular(G, node_shape='s', 
                 node_color='orange', with_labels=1)
         plt.title("A Complete Graph of {}".format(self.num_nodes))
-        return plt.show()
+        plt.show()
+        return None
 
     def fetchSpanningTree(self):
         """This method obtains a randomized spanning tree 
@@ -80,7 +82,8 @@ class SpanningTree(object):
         nx.draw_circular(G, node_shape='s', 
                          node_color='orange', with_labels=1)
         plt.title("A Spanning Tree of {}".format(self.num_nodes))
-        return plt.show()
+        plt.show()
+        return None
 
 if __name__ == "__main__":
     graph = SpanningTree(8, 8)

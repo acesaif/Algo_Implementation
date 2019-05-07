@@ -39,10 +39,11 @@ def randomly_weighted_graph(num_nodes):
     G.add_weighted_edges_from(eff_edgelist)
     nx.draw_circular(
         G, node_shape='s', node_color='orange', with_labels=1)
+    plt.show()
 
     for i in list(G.edges(data=True)):
         print([i])
-    return plt.show()
+    return None
 
 if __name__ == '__main__':
     randomly_weighted_graph(6)
