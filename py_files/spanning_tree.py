@@ -85,6 +85,7 @@ class SpanningTree(object):
         plt.show()
         return None
 
+
 if __name__ == "__main__":
     define_random_tree(10, 10)
 

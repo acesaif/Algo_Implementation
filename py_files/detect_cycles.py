@@ -49,5 +49,6 @@ def cycles_in_random_graph(num_nodes):
         print(G.degree(i))
     return None
 
+
 if __name__ == '__main__':
     cycles_in_random_graph(5)

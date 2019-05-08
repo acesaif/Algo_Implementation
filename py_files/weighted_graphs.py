@@ -52,5 +52,6 @@ def randomly_weighted_graph(num_nodes):
         print([i])
     return None
 
+
 if __name__ == '__main__':
     randomly_weighted_graph(6)
