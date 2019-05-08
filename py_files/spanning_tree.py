@@ -37,8 +37,6 @@ def define_random_tree(num_nodes, num_edges):
     plt.show()
     return None
 
-define_random_tree(10, 10)
-
 
 class SpanningTree(object):
     """Spanning tree of complete graph."""
@@ -88,6 +86,8 @@ class SpanningTree(object):
         return None
 
 if __name__ == "__main__":
+    define_random_tree(10, 10)
+
     graph = SpanningTree(8, 8)
     graph.fetchCompleteGraph()
     graph.fetchSpanningTree()
