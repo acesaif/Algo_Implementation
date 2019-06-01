@@ -20,27 +20,17 @@ Before that, we need to attain familiarity with `weighted graphs`.
 
 __Weighted graph__ is a graph in which a real number is assigned to every edge of it. The real number is called the `weight` of the edge and is denoted by `w(e)`. For a graph of `6`, the random weights can be like this,
 ```
-[(1, 1, {'weight': 0})]
-[(1, 2, {'weight': 13})]
-[(1, 3, {'weight': 9})]
-[(1, 4, {'weight': 44})]
-[(1, 5, {'weight': 31})]
-[(1, 6, {'weight': 28})]
-[(2, 2, {'weight': 0})]
-[(2, 3, {'weight': 47})]
-[(2, 4, {'weight': 41})]
-[(2, 5, {'weight': 34})]
+[(1, 1, {'weight': 0})]   [(3, 3, {'weight': 0})]
+[(1, 2, {'weight': 13})]  [(3, 4, {'weight': 36})]
+[(1, 3, {'weight': 9})]   [(3, 5, {'weight': 17})]
+[(1, 4, {'weight': 44})]  [(3, 6, {'weight': 34})]
+[(1, 5, {'weight': 31})]  [(4, 4, {'weight': 0})]
+[(1, 6, {'weight': 28})]  [(4, 5, {'weight': 34})]
+[(2, 2, {'weight': 0})]   [(4, 6, {'weight': 17})]
+[(2, 3, {'weight': 47})]  [(5, 5, {'weight': 0})]
+[(2, 4, {'weight': 41})]  [(5, 6, {'weight': 43})]
+[(2, 5, {'weight': 34})]  [(6, 6, {'weight': 0})]
 [(2, 6, {'weight': 19})]
-[(3, 3, {'weight': 0})]
-[(3, 4, {'weight': 36})]
-[(3, 5, {'weight': 17})]
-[(3, 6, {'weight': 34})]
-[(4, 4, {'weight': 0})]
-[(4, 5, {'weight': 34})]
-[(4, 6, {'weight': 17})]
-[(5, 5, {'weight': 0})]
-[(5, 6, {'weight': 43})]
-[(6, 6, {'weight': 0})]
 ```
 the key idea is, when the graph is `underlying` (absence of directions), then the weight of `edge(a, b) = edge(b, a)`.
 
